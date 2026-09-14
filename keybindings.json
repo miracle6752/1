@@ -1,0 +1,23 @@
+// Поместите настраиваемые сочетания клавиш в этот файл, чтобы переопределить сочетания клавиш по умолчанию.auto[]
+[
+    {
+        "key": "g",
+        "command": "outdent",
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "-outdent",
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "key": "i",
+        "command": "problems.action.openToSide",
+        "when": "problemFocus"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-problems.action.openToSide",
+        "when": "problemFocus"
+    }
+]
